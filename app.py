@@ -1,6 +1,5 @@
 import csv
 
-total_salary = []
 with open("sample.csv", 'r') as df:
     read_data = csv.reader(df)
     next(read_data)
